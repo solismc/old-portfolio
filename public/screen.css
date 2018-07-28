@@ -53,7 +53,6 @@ body {
   color: black;
   font-size: 36px;
   
-
 }
 
 .bubble-box-container {
@@ -82,18 +81,45 @@ body {
     border: yellow solid 5px;
   }
 
-  .section-blog-article-one {
+  .react-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    align-content: space-around;
-    background-position: center;
+    background-image: url(images/react.png);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     border: 3px solid black;
-    height: 10em;
+    height: 20em
     width: 100%;
     color: white;
     font-size: 16px;
-    border: yellow solid 5px;
+    border: pink dotted 5px;
+    }
+
+    .code-header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/code.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    height: 20em;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    border: pink dotted 5px;
   }
+
+  .footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+  }
+  
