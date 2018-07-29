@@ -36,12 +36,9 @@ body {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 3px solid black;
   width: 100%;
   color: white;
   font-size: 16px;
-  border: pink dotted 5px;
-
 }
 
 .bubble-box {
@@ -52,8 +49,7 @@ body {
   background-color: #d0d4d6;
   color: black;
   font-size: 36px;
-  
-}
+  }
 
 .bubble-box-container {
   display: flex;
@@ -61,41 +57,81 @@ body {
   align-items: center;
   width: 100%;
   height: 25em;
-  border: green solid 3px;
 }
 
 .section-projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-end;
+  align-content: space-around;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10em;
+  width: 100%;
+  padding: 2em 1em 2em 1em;
+  }
+
+.section-header-react {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/react.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 6em;
+  color: white;
+  font-size: 16px;
+  }
+    
+.section-header-code {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/code.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 6em;
+  color: white;
+  font-size: 16px;
+  }
+
+.footer {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     align-self: flex-end;
     align-content: space-around;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 3px solid black;
+    background-color: black;
     height: 10em;
     width: 100%;
+    font-size: 24px;
     color: white;
-    font-size: 16px;
-    border: yellow solid 5px;
-  }
+    padding-top: .5em;
+}
 
-  .react-header {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(images/react.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 3px solid black;
-    height: 5em;
-    width: 100%;
-    color: white;
-    font-size: 16px;
-    border: pink dotted 5px;
-    }
+.social-media-logo-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  list-style: none;
+  height:2em ;
+  width:20em ;
+}
 
-  
+.copyright-footer {
+  font-size: 10px;
+}
+
+.header-font-size {
+  font-size: 24px;
+}
