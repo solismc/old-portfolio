@@ -11,7 +11,6 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  width: 100%;
   font-family: 'Roboto', sans-serif;
   background-image: cover;
   background-position: center;
@@ -44,12 +43,25 @@ body {
 .bubble-box {
   display: flex;
   flex-direction: column;
-  height: 3em;
-  width: 24em;
+  justify-content: space-around;
+  align-self: flex-start;
+  margin-top: 1.75em;
+  border-radius: 2%;
+  height: 2em;
+  width: 12em;
   background-color: #d0d4d6;
   color: black;
   font-size: 36px;
-  }
+  padding: .25em;
+}
+
+.bubble-box-header {
+  font-size: 26px;
+}
+
+.bubble-box-span {
+  font-size: 20px;
+}
 
 .bubble-box-container {
   display: flex;
@@ -87,7 +99,14 @@ body {
   color: white;
   font-size: 16px;
   }
-    
+ 
+.section-header-react-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0em 2em 0em 2em;
+}  
+
 .section-header-code {
   display: flex;
   justify-content: flex-start;
@@ -103,29 +122,44 @@ body {
   font-size: 16px;
   }
 
+  .section-header-code-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2em 0em 2em;
+  }  
+
 .footer {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    align-self: flex-end;
-    align-content: space-around;
     background-color: black;
     height: 10em;
     width: 100%;
     font-size: 24px;
     color: white;
-    padding-top: .5em;
+    padding: 2em 0em .5em 0em;
 }
 
 .social-media-logo-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  align-content: space-between;
   list-style: none;
-  height:2em ;
-  width:20em ;
+  width: 15em ;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-content: space-around;
+  background-color: blue;
+  font-size: 20px;
+  border-radius: 5%;
+  padding: .5em;
+  margin: -.75em;
 }
 
 .copyright-footer {
