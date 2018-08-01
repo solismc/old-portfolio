@@ -31,7 +31,7 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  background-image: url(images/space.png);
+  background-image: url(/images/business-strategy.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,23 +40,9 @@ body {
   font-size: 16px;
 }
 
-.bubble-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-self: flex-start;
-  margin-top: 1.75em;
-  border-radius: 2%;
-  height: 2em;
-  width: 12em;
-  background-color: #d0d4d6;
-  color: black;
-  font-size: 36px;
-  padding: .25em;
-}
-
 .bubble-box-header {
-  font-size: 26px;
+  color: black;
+  font-size: 20pxpx;
 }
 
 .bubble-box-span {
@@ -80,7 +66,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 10em;
+  background-color: black;
+  height: 5em;
   width: 100%;
   padding: 2em 1em 2em 1em;
   }
