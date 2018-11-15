@@ -56,15 +56,17 @@ body {
   background-image: url(st-petersburg-fl.png);
   background-position: center;
   background-repeat: no-repeat;
-  border-color: black solid;
+  /*border-color: black solid;*/
   height: 22em;
 }
 
 .quote {
   display: flex;
   justify-content: center;
+  align-items: center;
   align-content: center;
-  height: 4em;
+  height: 3em;
+  font-size: 1.5em;
 }
 
 .section-projects {
