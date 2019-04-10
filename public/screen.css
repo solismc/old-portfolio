@@ -29,7 +29,7 @@ body {
 }
 
 .section-header {
-  /* display: flex; */
+  display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
@@ -57,6 +57,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   /*border-color: black solid;*/
+  padding-top: 2em;
   height: 12em;
 }
 
@@ -65,7 +66,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 9em;
+  height: 8em;
   font-size: 1.5em;
   background-color: #86BBD8;
 }
