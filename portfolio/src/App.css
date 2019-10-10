@@ -85,13 +85,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   background-image: url(st-petersburg-fl.png);
   background-position: center;
   background-repeat: no-repeat;
   /*border-color: black solid;*/
   padding-top: 2em;
-  height: 12em;
+  height: 30vh;
 }
 
 .quote {
@@ -99,7 +99,8 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 8em;
+  height: 25vh;
+  width: 100vw;
   font-size: 1.5em;
   background-color: #86BBD8;
 }
@@ -123,8 +124,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #2F4858;
-  width: 100%;
-  height: 6em;
+  width: 100vw;
+  height: 15vh;
   color: white;
   font-size: 16px;
   }
