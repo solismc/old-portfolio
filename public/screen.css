@@ -55,35 +55,22 @@ body {
   background-image: url(st-petersburg-fl.png);
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-<<<<<<< HEAD
   /*border-color: black solid;*/
   padding-top: 2em;
   height: 25vh;
   width: 100 vw;
-=======
-=======
->>>>>>> parent of 9868f5c... CSS formatting
   border-color: black solid;
   height: 22em;
->>>>>>> parent of 9868f5c... CSS formatting
 }
 
 .quote {
   display: flex;
   justify-content: center;
   align-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
   height: 20vh;
   width: 100vw;
   background-color: #86BBD8;
-=======
   height: 4em;
->>>>>>> parent of 9868f5c... CSS formatting
-=======
-  height: 4em;
->>>>>>> parent of 9868f5c... CSS formatting
 }
 
 .section-projects {
