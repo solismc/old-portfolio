@@ -56,6 +56,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ body {
 =======
 >>>>>>> parent of 9868f5c... CSS formatting
 >>>>>>> db90ae8c9dcd713b315bab3922aa49917a43c42c
+=======
+>>>>>>> parent of 9868f5c... CSS formatting
   border-color: black solid;
   height: 22em;
 }
@@ -81,6 +84,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -101,6 +105,9 @@ body {
   height: 4em;
 >>>>>>> parent of 9868f5c... CSS formatting
 >>>>>>> db90ae8c9dcd713b315bab3922aa49917a43c42c
+=======
+  height: 4em;
+>>>>>>> parent of 9868f5c... CSS formatting
 }
 
 .section-projects {
