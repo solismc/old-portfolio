@@ -55,27 +55,10 @@ body {
   background-image: url(st-petersburg-fl.png);
   background-position: center;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> db90ae8c9dcd713b315bab3922aa49917a43c42c
   /*border-color: black solid;*/
   padding-top: 2em;
   height: 25vh;
   width: 100 vw;
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> parent of 9868f5c... CSS formatting
-=======
->>>>>>> parent of 9868f5c... CSS formatting
->>>>>>> db90ae8c9dcd713b315bab3922aa49917a43c42c
-=======
->>>>>>> parent of 9868f5c... CSS formatting
   border-color: black solid;
   height: 22em;
 }
@@ -84,30 +67,10 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> db90ae8c9dcd713b315bab3922aa49917a43c42c
   height: 20vh;
   width: 100vw;
   background-color: #86BBD8;
   height: 4em;
-<<<<<<< HEAD
-=======
->>>>>>> parent of 9868f5c... CSS formatting
-=======
-  height: 4em;
->>>>>>> parent of 9868f5c... CSS formatting
-=======
-  height: 4em;
->>>>>>> parent of 9868f5c... CSS formatting
->>>>>>> db90ae8c9dcd713b315bab3922aa49917a43c42c
-=======
-  height: 4em;
->>>>>>> parent of 9868f5c... CSS formatting
 }
 
 .section-projects {
