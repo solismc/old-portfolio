@@ -5,7 +5,7 @@
     "start": "browser-sync start --server \"public\" --files \"public\""
   },
   "dependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.27.11",
     "react-router-dom": "^5.0.0",
     "stylelint": "^9.4.0",
     "stylelint-config-standard": "^18.2.0",
